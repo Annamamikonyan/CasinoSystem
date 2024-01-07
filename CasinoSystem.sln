@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Casino.API", "Casino.API", "{F9AAF6AE-CCBC-46D8-9428-E6865A3E62D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Casino.BLL", "Casino.BLL", "{0AB6A3BA-0E08-45C2-B393-FF370803ED82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Casino.DAL", "Casino.DAL", "{CE98171A-FBFA-419F-BC1B-B63F7A62B749}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casino.API", "Casino.API\Casino.API.csproj", "{890D8E8C-EA9C-4041-A4AE-E4220F9951F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casino.BLL", "Casino.BLL\Casino.BLL.csproj", "{8D5C43DC-8098-436D-80BD-F4493CE73E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.DAL", "Casino.DAL\Casino.DAL.csproj", "{86E6EC5B-81F5-4734-BCB4-9815A72AF94B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Casino.DB", "Casino.DB", "{CFF2B07B-7475-431A-9378-6C008491A9D1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Casino.DB", "Casino.DB\Casino.DB.sqlproj", "{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{890D8E8C-EA9C-4041-A4AE-E4220F9951F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890D8E8C-EA9C-4041-A4AE-E4220F9951F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890D8E8C-EA9C-4041-A4AE-E4220F9951F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890D8E8C-EA9C-4041-A4AE-E4220F9951F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5C43DC-8098-436D-80BD-F4493CE73E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5C43DC-8098-436D-80BD-F4493CE73E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5C43DC-8098-436D-80BD-F4493CE73E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5C43DC-8098-436D-80BD-F4493CE73E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E6EC5B-81F5-4734-BCB4-9815A72AF94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E6EC5B-81F5-4734-BCB4-9815A72AF94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E6EC5B-81F5-4734-BCB4-9815A72AF94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E6EC5B-81F5-4734-BCB4-9815A72AF94B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{890D8E8C-EA9C-4041-A4AE-E4220F9951F3} = {F9AAF6AE-CCBC-46D8-9428-E6865A3E62D5}
+		{8D5C43DC-8098-436D-80BD-F4493CE73E89} = {0AB6A3BA-0E08-45C2-B393-FF370803ED82}
+		{86E6EC5B-81F5-4734-BCB4-9815A72AF94B} = {CE98171A-FBFA-419F-BC1B-B63F7A62B749}
+		{AF0E1CAE-AAB9-4A28-BB5D-1891083D979B} = {CFF2B07B-7475-431A-9378-6C008491A9D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46A62D85-5F10-4B3E-919D-5D4E27EE39C0}
+	EndGlobalSection
+EndGlobal
