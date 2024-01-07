@@ -23,6 +23,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// add global exception handling via a custom middleware
+
 app.UseMiddleware<GlobalExceptionHandlingMiddeleware>();
 
 app.UseHttpsRedirection();

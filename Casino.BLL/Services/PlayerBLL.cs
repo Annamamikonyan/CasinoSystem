@@ -30,6 +30,7 @@ namespace Casino.BLL.Services
             // also add Accounts for player here
             // there are 2 accounts for a specific Player, one is for counting Bonuses,
             // Second is for counting real money
+
             return _mapper.Map<PlayerDTO>(addedPlayer);
         }
 

@@ -13,7 +13,8 @@ namespace Casino.API.Extensions
         {   
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IPlayerRepository, PlayerRepository>();
-            
+            // here must be all the used service injections
+            // .......
             services.AddScoped<IPlayerBLL, PlayerBLL>();
 
         }
